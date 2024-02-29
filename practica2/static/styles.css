@@ -1,0 +1,67 @@
+/*
+https://www.mclibre.org/consultar/htmlcss/css/css-hr.html
+https://htmlcolorcodes.com/es/
+https://www.w3schools.com/css/css_margin.asp
+https://www.w3schools.com/css/css_positioning.asp
+*/
+
+.textCentre {
+  background-color: grey;
+  text-align: center;
+  border: 2px solid #000; 
+  padding: 2%;
+  border-radius: 10px;
+  max-width: 250px; 
+  margin: 0 auto; 
+  position: relative;
+
+}
+
+.textDog {
+  display: flex;
+  background-color: white;
+  border: 2px solid #000;
+  padding: 2%;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.imageDog {
+  margin-right: 100px;
+}
+
+/*Flex : https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
+
+
+.textInfoDog {
+  text-align: left;
+  display: flex;
+  flex-direction: column; 
+}
+
+body{
+  background-color: black;
+}
+
+hr{
+  position: absolute;
+  bottom: 50%;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: black;
+}
+
+.imgUser img{
+  text-align: center;
+  width: 80px;
+}
+
+button{
+  background-color: aqua;
+}
+
+a{
+  background-color: aqua;
+}
